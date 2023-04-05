@@ -1,0 +1,144 @@
+header {
+    background-color: #B8621B;
+	padding: 20px 0;
+    padding-top: 0%;
+}
+
+.titulo-principal {
+    color: #FFD93D;
+	font-size: 28px;
+	font-weight: bold;
+    display: inline;
+    position: absolute;
+    padding-left: 43%;
+    padding-top: 5px;
+}
+
+
+main{
+    background-color: #23120B;
+}
+
+.caixa {
+    background-color: #262A56;
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+
+nav {
+    position: relative;
+    text-align: right;
+    bottom: 140px;
+    padding-right: 15px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+ nav a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover { 
+    color: #FFD93D;
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li { 
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #FFD93D;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.produtos li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+.produtos li:active {
+    border-color: #262A56;
+    transition: none;
+}
+
+.produtos li:hover h2 {
+    transform: scale(1.1);
+}
+
+.produtos h2 {
+    transition: 1s all;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.produtos-descrição {
+    font-size: 18px;
+    margin: 0p;
+    padding: 5px;
+}
+
+.preços {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+hr{
+    border: 10px solid #B8621B;
+    margin: 0;
+}
+
+footer {
+    background-color: #1f1f1f;
+	text-align: center;
+	padding: 40px 0;
+}
+
+footer a {
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    margin-top: 15px;
+}
+
+.creditos{
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+    left: 40px;
+}
+.copyright {
+    color: #FFD93D;
+    font-size: 13px;
+    margin: 0
+}
+
+#contato {
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}

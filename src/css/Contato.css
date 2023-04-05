@@ -1,0 +1,150 @@
+body{
+    background-color: #23120B;
+}
+
+header {
+    background-color: #B8621B;
+	padding: 20px 0;
+    padding-top: 0%;
+}
+
+.titulo-principal {
+    color: #FFD93D;
+	font-size: 28px;
+	font-weight: bold;
+    display: inline;
+    position: absolute;
+    padding-left: 43%;
+    padding-top: 5px;
+}
+
+.caixa {
+    background-color: #262A56;
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+
+nav {
+    position: relative;
+    text-align: right;
+    bottom: 140px;
+    padding-right: 15px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+ nav a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover { 
+    color: #FFD93D;
+    
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    color: #FFD93D;
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #262A56;
+    color: #FFD93D;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+.enviar:hover {
+    background: royalblue;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+    background-color: #1f1f1f;
+}
+
+thead {
+    background: #1f1f1f;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    color: #FFD93D;
+    border: 1px solid;
+    padding: 8px 15px;
+}
+
+hr{
+    border: 10px solid #B8621B;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #1f1f1f;
+	text-align: center;
+	padding: 40px 0;
+}
+
+footer a {
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    margin-top: 15px;
+}
+
+.creditos{
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+    left: 40px;
+}
+.copyright {
+    color: #FFD93D;
+    font-size: 13px;
+    margin: 0
+}
+
+#contato {
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
